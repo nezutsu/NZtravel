@@ -708,7 +708,7 @@
     <p class="hero-subtitle">Aotearoa · Land of the Long White Cloud</p>
     <div class="hero-meta">
       <div class="hero-meta-item">
-        <span class="num">12</span>
+        <span class="num">13</span>
         <span class="label">旅程天數</span>
       </div>
       <div class="hero-meta-item">
@@ -716,7 +716,7 @@
         <span class="label">旅伴人數</span>
       </div>
       <div class="hero-meta-item">
-        <span class="num">4/16</span>
+        <span class="num">4/15</span>
         <span class="label">出發日期</span>
       </div>
       <div class="hero-meta-item">
@@ -731,54 +731,6 @@
   </div>
 </section>
 
-<!-- ══════════════════ OVERVIEW STRIP ══════════════════ -->
-<div class="overview-strip">
-  <div class="strip-item"><span class="icon">🚗</span> Toyota Highlander 7人座 全程自駕</div>
-  <div class="strip-item"><span class="icon">📅</span> 4/16 抵達 → 4/27 離開</div>
-  <div class="strip-item"><span class="icon">👥</span> 4人同行，30歲上下</div>
-  <div class="strip-item"><span class="icon">⏱</span> 每日駕車 &lt; 5小時</div>
-  <div class="strip-item"><span class="icon">🪂</span> Wanaka 跳傘已排入</div>
-</div>
-
-<!-- ══════════════════ BUDGET ══════════════════ -->
-<div class="section-header">
-  <p class="section-eyebrow">費用概算</p>
-  <h2 class="section-title">行程預算 <em>總覽</em></h2>
-</div>
-
-<div class="budget-grid container">
-  <div class="budget-card">
-    <div class="cat">租車費用</div>
-    <div class="amount">~42,000 <span>TWD</span></div>
-    <div class="sub">Toyota Highlander · 12天<br>（4人均攤約 $10,500）</div>
-  </div>
-  <div class="budget-card">
-    <div class="cat">住宿費用</div>
-    <div class="amount">~48,000 <span>TWD</span></div>
-    <div class="sub">11晚 · 4人均攤約 $12,000<br>含已訂住宿</div>
-  </div>
-  <div class="budget-card">
-    <div class="cat">活動門票</div>
-    <div class="amount">~60,000 <span>TWD</span></div>
-    <div class="sub">跳傘/纜車/米佛峽灣遊船<br>冰川健行等</div>
-  </div>
-  <div class="budget-card">
-    <div class="cat">餐飲費用</div>
-    <div class="amount">~28,000 <span>TWD</span></div>
-    <div class="sub">4人 × 11天<br>每人每日約 $640</div>
-  </div>
-  <div class="budget-card">
-    <div class="cat">油費雜支</div>
-    <div class="amount">~12,000 <span>TWD</span></div>
-    <div class="sub">估計行駛 1,800 km<br>含公路通行費</div>
-  </div>
-  <div class="budget-card" style="background: var(--ink); color: var(--white);">
-    <div class="cat" style="color: var(--gold);">每人總預算</div>
-    <div class="amount" style="color: var(--gold-light);">~47,500 <span style="color: rgba(240,237,232,0.5);">TWD</span></div>
-    <div class="sub" style="color: rgba(240,237,232,0.5);">不含機票<br>建議備用金另加 20%</div>
-  </div>
-</div>
-
 <!-- ══════════════════ DAYS ══════════════════ -->
 <div class="days-section">
   <div class="section-header">
@@ -789,130 +741,37 @@
   <!-- Filter buttons -->
   <div class="day-filters" id="dayFilters">
     <button class="day-btn active" onclick="showAll()">全部天數</button>
-    <button class="day-btn" onclick="filterDay(1)">Day 1 · 基督城</button>
-    <button class="day-btn" onclick="filterDay(2)">Day 2 · 蒂卡波</button>
-    <button class="day-btn" onclick="filterDay(3)">Day 3 · 普卡基湖</button>
-    <button class="day-btn" onclick="filterDay(4)">Day 4 · Wanaka→皇后鎮</button>
+    <button class="day-btn" onclick="filterDay(1)">Day 1 · 香港</button>
+    <button class="day-btn" onclick="filterDay(2)">Day 2 · 基督城</button>
+    <button class="day-btn" onclick="filterDay(3)">Day 3 · 蒂卡波湖</button>
+    <button class="day-btn" onclick="filterDay(4)">Day 4 · Wanaka</button>
     <button class="day-btn" onclick="filterDay(5)">Day 5 · 皇后鎮</button>
-    <button class="day-btn" onclick="filterDay(6)">Day 6 · 蒂阿瑙·螢火蟲洞</button>
-    <button class="day-btn" onclick="filterDay(7)">Day 7 · 米佛峽灣</button>
-    <button class="day-btn" onclick="filterDay(8)">Day 8 · 北上Twizel</button>
-    <button class="day-btn" onclick="filterDay(9)">Day 9 · 庫克山健行</button>
-    <button class="day-btn" onclick="filterDay(10)">Day 10 · 返回基督城</button>
-    <button class="day-btn" onclick="filterDay(11)">Day 11 · 凱庫拉賞鯨</button>
-    <button class="day-btn" onclick="filterDay(12)">Day 12 · 返程</button>
+    <button class="day-btn" onclick="filterDay(6)">Day 6 · 皇后鎮</button>
+    <button class="day-btn" onclick="filterDay(7)">Day 7 · 蒂阿瑙</button>
+    <button class="day-btn" onclick="filterDay(8)">Day 8 · 米佛峽灣</button>
+    <button class="day-btn" onclick="filterDay(9)">Day 9 · Twizel</button>
+    <button class="day-btn" onclick="filterDay(10)">Day 10 · 庫克山</button>
+    <button class="day-btn" onclick="filterDay(11)">Day 11 · 基督城</button>
+    <button class="day-btn" onclick="filterDay(12)">Day 12 · 凱庫拉賞鯨</button>
+    <button class="day-btn" onclick="filterDay(13)">Day 13 · 返台</button>
   </div>
+
 
   <!-- ─── DAY 1 ─── -->
   <div class="day-card visible" data-day="1" id="day1">
     <div class="day-header" onclick="toggleDay(1)">
       <div class="day-num-block"><span class="day-n">01</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>抵達基督城 · 市區漫遊</h3>
-        <div class="day-meta">
-          <span>📅 4月16日（週四）</span>
-          <span>🏙️ Christchurch</span>
-          <span>🚗 市區移動</span>
-          <span>💰 約 NT$800/人</span>
-        </div>
+        <h3>高雄出發 · <span style="color:var(--teal)">香港</span> 轉機</h3>
+        <div class="day-meta"><span>📅 4月15日（週二）</span><span>✈️ 高雄→香港→奧克蘭</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">14:05</div>
-          <div class="stop-name">✈️ 抵達基督城國際機場</div>
-          <div class="stop-desc">班機落地，通關入境。取行李、兌換紐幣（機場匯率可用，但建議在市區 Forex 再換一部分）。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-43.4894,172.5325" target="_blank">📍 機場地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 停留 1.5 小時</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Christchurch+Airport/Snap+Rentals+Christchurch" target="_blank">🚗 前往租車行 · 約 10 分鐘</a>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">16:30</div>
-          <div class="stop-name">🚗 Snap Rentals 取車 <span class="badge badge-must">必辦</span> <span class="badge badge-book">需預訂</span></div>
-          <div class="stop-desc">Toyota Highlander 7人座，已預訂 16:30。確認保險選項（強烈建議加購全險，約 NZD 30/天）、GPS 租借、兒童座椅等配件。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.snaprentals.co.nz/rental-cars/large-suv" target="_blank">🔗 Snap Rentals 官網</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-43.4877,172.5318" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 約 45 分鐘辦理</span>
-            <span class="stop-info-item">📝 帶國際駕照正本+台灣駕照</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Christchurch+Airport/Christchurch+Botanic+Gardens" target="_blank">🚗 市區 · 約 15 分鐘</a>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">17:30</div>
-          <div class="stop-name">🌿 Christchurch Botanic Gardens</div>
-          <div class="stop-desc">基督城植物園，免費入場。秋天（4月）可見金黃落葉景色，湖邊天鵝悠游，是下午散步的絕佳選擇。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-43.5320,172.6208" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1–1.5 小時</span>
-            <span class="stop-info-item">💰 免費</span>
-            <span class="stop-info-item">🕐 日出至日落</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <span>步行 5 分鐘</span>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">19:00</div>
-          <div class="stop-name">🛒 Riverside Market 晚餐</div>
-          <div class="stop-desc">基督城最受歡迎的室內市集，匯聚各國料理攤位、生鮮市場與咖啡館。推薦嘗試 Salmon & Chips 或 Duck Duck Goose 炸鴨捲。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-43.5307,172.6362" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1.5 小時</span>
-            <span class="stop-info-item">💰 NT$350–500/人</span>
-            <span class="stop-info-item">🕐 09:00–21:00</span>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已預訂</div>
-        <h4>Alcala Motor Lodge</h4>
-        <div class="accom-meta">
-          <span>📍 基督城市區</span>
-          <span>💰 NZD 195.5 / 晚 · 約 TWD 3,600</span>
-          <span>👤 人均約 TWD 900</span>
-          <a href="https://www.booking.com/hotel/nz/alcala-motor-lodge.html" target="_blank">查看預訂詳情</a>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日出發清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 國際駕照</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 紐幣現金</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 下載離線地圖</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 紐西蘭 SIM 卡</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 車輛保險確認</div>
-        </div>
+        <div class="stop"><div class="stop-time">09:15</div><div class="stop-name">✈️ 高雄出發</div><div class="stop-desc">高雄小港機場起飛，前往香港。</div></div>
+        <div class="stop"><div class="stop-time">10:55</div><div class="stop-name">🛬 抵達香港</div><div class="stop-desc">抵達香港，出境入市區吃吃喝喝，享受轉機空檔。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Hong+Kong+International+Airport" target="_blank">📍 香港機場</a></div></div>
+        <div class="stop"><div class="stop-time">19:15</div><div class="stop-name">✈️ 香港出發奧克蘭</div><div class="stop-desc">搭機飛往紐西蘭奧克蘭，預計隔日（4/16）14:05 抵達基督城。</div></div>
       </div>
     </div>
   </div>
@@ -922,143 +781,20 @@
     <div class="day-header" onclick="toggleDay(2)">
       <div class="day-num-block"><span class="day-n">02</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>基督城 → <span style="color:var(--teal)">Lake Tekapo</span> 蒂卡波湖</h3>
-        <div class="day-meta">
-          <span>📅 4月17日（週五）</span>
-          <span>🚗 車程約 3 小時</span>
-          <span>💰 約 NT$2,500/人</span>
-        </div>
+        <h3>抵達 <span style="color:var(--teal)">基督城</span> · 市區漫遊</h3>
+        <div class="day-meta"><span>📅 4月16日（週三）</span><span>🏙️ Christchurch</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">08:00</div>
-          <div class="stop-name">☕ 早餐出發</div>
-          <div class="stop-desc">可在住宿附近的 Super Liquor 或 Countdown 超市採購路上零食與早餐，節省時間。</div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Christchurch/Castle+Hill+Reserve+New+Zealand" target="_blank">🚗 73號公路 → Castle Hill · 約 1.5 小時</a>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">09:30</div>
-          <div class="stop-name">🪨 Castle Hill / Kura Tāwhiti 巨石陣</div>
-          <div class="stop-desc">達賴喇嘛稱之為「宇宙的精神中心」，巨大石灰岩岩石如棋盤般散落山谷。是拍照、攀爬的絕佳地點，秋光下金黃草原配上白色岩石極為壯觀。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-43.1600,171.5500" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 45 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-            <span class="stop-info-item">👟 路況：碎石步道</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Castle+Hill+New+Zealand/Arthur%27s+Pass+Village" target="_blank">🚗 繼續沿73號 → Arthur's Pass · 約 30 分鐘</a>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">10:30</div>
-          <div class="stop-name">🏔️ Arthur's Pass 亞瑟山口 + Fairlie Bakehouse 派</div>
-          <div class="stop-desc">穿越南阿爾卑斯山的壯麗山口，沿途可見冰川河谷。在 Fairlie Bakehouse 停留嘗試紐西蘭著名的肉派（Mince & Cheese Pie），是必吃的公路旅行小食。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-43.0233,171.5639" target="_blank">📍 地圖</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Fairlie+Bakehouse+NZ" target="_blank">🥧 Fairlie Bakehouse</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 30–45 分鐘</span>
-            <span class="stop-info-item">💰 NT$200–300/人（派）</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Arthur%27s+Pass/Lake+Tekapo" target="_blank">🚗 → Tekapo · 約 1.5 小時</a>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">13:00</div>
-          <div class="stop-name">💙 Lake Tekapo 蒂卡波湖 <span class="badge badge-must">必訪</span></div>
-          <div class="stop-desc">因冰川粉末折射而呈現奇幻土耳其藍的神秘湖泊。4月是絕佳季節，人潮較少，天氣晴朗時湖面如鏡面般倒映麥肯齊山脈。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.0060,170.4776" target="_blank">📍 地圖</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">13:30</div>
-          <div class="stop-name">⛪ Church of the Good Shepherd</div>
-          <div class="stop-desc">湖畔最著名的石砌小教堂，窗框正好框住蒂卡波湖景，是紐西蘭最多人拍照的景點之一。建議早上或傍晚前往，避免人多。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.0040,170.4770" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 30 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">14:30</div>
-          <div class="stop-name">🏊 Tekapo Springs 溫泉</div>
-          <div class="stop-desc">戶外溫泉池面向蒂卡波湖，可一邊泡湯一邊眺望雪山，4月氣溫約 5–12°C，泡溫泉相當舒適。建議提前訂票。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.tekaposprings.co.nz/" target="_blank">🔗 官網訂票</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-44.0002,170.4826" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1.5–2 小時</span>
-            <span class="stop-info-item">💰 NZD 28–35/人 · 約 TWD 540–680</span>
-            <span class="stop-info-item">🕐 10:00–21:00</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">晚上</div>
-          <div class="stop-name">⭐ 約翰山天文台觀星</div>
-          <div class="stop-desc">蒂卡波是全球首個「星空保護區」，光害極少。夜晚驅車上約翰山可見銀河橫空，4月南半球秋天視野絕佳。可配合 Astro Café 觀星導覽。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.earthandsky.co.nz/" target="_blank">🔗 觀星導覽訂票</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-44.0063,170.4648" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 2–2.5 小時</span>
-            <span class="stop-info-item">💰 NZD 145/人 導覽 · 免費自賞</span>
-            <span class="stop-info-item">📝 天氣不佳則取消</span>
-          </div>
-          <div class="note-box">⚠️ 觀星日期視天況而定，建議出發前查詢 MetService 天氣預報</div>
-        </div>
-
+        <div class="stop"><div class="stop-time">14:05</div><div class="stop-name">✈️ 抵達基督城國際機場</div><div class="stop-desc">班機落地，通關入境，取行李，前往 Snap Rentals 取車。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Christchurch+International+Airport" target="_blank">📍 機場</a></div></div>
+        <div class="stop must"><div class="stop-time">16:30</div><div class="stop-name">🚗 Snap Rentals 取車 <span class="badge badge-must">必辦</span></div><div class="stop-desc">Toyota Highlander 7人座，已預訂 16:30。記得帶國際駕照正本＋台灣駕照。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.snaprentals.co.nz/" target="_blank">🔗 Snap Rentals</a><a class="link-btn" href="https://maps.google.com/?q=Snap+Rentals+Christchurch" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">17:30</div><div class="stop-name">🌿 Christchurch Botanic Gardens</div><div class="stop-desc">基督城植物園，4月秋色迷人，免費入場，湖邊天鵝悠遊。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Christchurch+Botanic+Gardens" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">18:30</div><div class="stop-name">🧵 Weft Factory Shop</div><div class="stop-desc">基督城特色紡織品店，可購買紀念品或羊毛製品。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Weft+Factory+Shop+Christchurch" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">19:30</div><div class="stop-name">🍽️ 晚餐：Riverside Market</div><div class="stop-desc">基督城最受歡迎的室內市集，各國料理齊聚一堂。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Riverside+Market+Christchurch" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 營業至 21:00</span></div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已預訂</div>
-        <h4>Tailor Made Tekapo Accommodation</h4>
-        <div class="accom-meta">
-          <span>📍 蒂卡波湖畔</span>
-          <span>💰 TWD 5,385 / 晚</span>
-          <span>👤 人均約 TWD 1,346</span>
-          <a href="https://www.booking.com/hotel/nz/tailor-made-tekapo.html" target="_blank">查看預訂詳情</a>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 溫泉門票已訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 觀星活動確認天氣</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 泳衣備妥</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 保暖衣物</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 相機/腳架（觀星）</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>Alcala Motor Lodge</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Alcala+Motor+Lodge+Christchurch" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
@@ -1067,106 +803,21 @@
     <div class="day-header" onclick="toggleDay(3)">
       <div class="day-num-block"><span class="day-n">03</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>Tekapo → <span style="color:var(--teal)">Lake Pukaki</span> → Wanaka 路上</h3>
-        <div class="day-meta">
-          <span>📅 4月18日（週六）</span>
-          <span>🚗 車程約 2.5–3 小時</span>
-          <span>💰 約 NT$3,000/人</span>
-        </div>
+        <h3>基督城 → <span style="color:var(--teal)">蒂卡波湖</span></h3>
+        <div class="day-meta"><span>📅 4月17日（週四）</span><span>🚗 車程約 3 小時</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop must">
-          <div class="stop-time">09:00</div>
-          <div class="stop-name">💙 Lake Pukaki 普卡基湖 <span class="badge badge-must">必訪</span></div>
-          <div class="stop-desc">比蒂卡波更深邃的藍，湖面正對庫克山（Aoraki），晴天時可見雪頂倒影於藍色湖面，是紐西蘭最壯觀的湖景之一。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.1333,170.1667" target="_blank">📍 地圖</a>
-            <a class="link-btn" href="https://www.google.com/maps/dir/Lake+Tekapo/Lake+Pukaki+Visitor+Centre" target="_blank">🚗 路線 · 約 40 分鐘</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1–1.5 小時</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">10:30</div>
-          <div class="stop-name">🐟 Alpine Salmon Shop 鮭魚午餐</div>
-          <div class="stop-desc">麥肯齊盆地的冰川水養殖鮭魚，是紐西蘭頂級鮭魚產地。新鮮鮭魚生魚片、煙燻鮭魚、魚腩漢堡，價格實惠品質極佳，是這條路上不能錯過的美食。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Alpine+Salmon+Lake+Pukaki" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1 小時</span>
-            <span class="stop-info-item">💰 NT$400–600/人</span>
-            <span class="stop-info-item">🕐 09:00–17:00</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">11:30</div>
-          <div class="stop-name">🔭 Peter's Lookout 觀景台</div>
-          <div class="stop-desc">普卡基湖最佳俯瞰點，可一覽湖面、麥肯齊平原與遠處庫克山的全景，是本段公路最值得停車的景點。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Peters+Lookout+Pukaki" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 20 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Lake+Pukaki/Lindis+Pass/Wanaka" target="_blank">🚗 經 Lindis Pass → Wanaka · 約 2.5 小時</a>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">14:00</div>
-          <div class="stop-name">🏔️ Lindis Pass Viewpoint</div>
-          <div class="stop-desc">橫越南阿爾卑斯山的高山牧場，4月金黃草坡配上蜿蜒山道，是南島內陸最美的公路風景之一。建議短暫停車拍照。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.5833,169.6167" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 15 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">16:00</div>
-          <div class="stop-name">🏡 抵達 Wanaka · Airbnb 入住</div>
-          <div class="stop-desc">Wanaka 是比皇后鎮更悠閒的度假小鎮，湖畔小鎮氛圍宜人。晚餐可前往湖畔餐廳 Ritual Café 或 The Cardrona Hotel。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.airbnb.com.tw/rooms/285896" target="_blank">🏡 Airbnb 房源</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-44.7024,169.1317" target="_blank">📍 Wanaka</a>
-          </div>
-        </div>
-
+        <div class="stop"><div class="stop-time">途中午餐</div><div class="stop-name">🥧 午餐：Fairlie Bakehouse</div><div class="stop-desc">紐西蘭著名肉派店，路途中必停。推薦 Mince & Cheese Pie。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Fairlie+Bakehouse" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 06:00–16:30</span></div></div>
+        <div class="stop must"><div class="stop-time">下午</div><div class="stop-name">⛪ Church of the Good Shepherd</div><div class="stop-desc">湖畔最著名的石砌小教堂，窗框正好框住蒂卡波湖景。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Church+of+the+Good+Shepherd+Tekapo" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🚶 Tekapo 湖畔步道</div><div class="stop-desc">沿蒂卡波湖畔漫步，欣賞那片不真實的藍綠色湖水。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Lake+Tekapo" target="_blank">📍 地圖</a></div></div>
+        <div class="stop must"><div class="stop-time">下午</div><div class="stop-name">♨️ Tekapo Springs 溫泉 <span class="badge badge-book">🎫 需訂票</span></div><div class="stop-desc">戶外溫泉池面向蒂卡波湖，一邊泡湯一邊眺望雪山，4月氣溫低泡起來特別舒服。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.tekaposprings.co.nz/" target="_blank">🔗 官網訂票</a><a class="link-btn" href="https://maps.google.com/?q=Tekapo+Springs" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 NZD 28–35/人</span></div></div>
+        <div class="stop"><div class="stop-time">18:00</div><div class="stop-name">🍽️ 晚餐：Kohan Restaurant</div><div class="stop-desc">湖畔日式料理餐廳，可邊用餐邊欣賞蒂卡波湖景。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Kohan+Restaurant+Tekapo" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 18:00–20:30（午餐 11:30–14:00）</span></div></div>
+        <div class="stop"><div class="stop-time">晚上</div><div class="stop-name">⭐ 約翰山天文台觀星</div><div class="stop-desc">蒂卡波是全球首個「星空保護區」，光害極少，4月南半球秋天視野絕佳。可配合 Astro Café 觀星導覽。</div><div class="stop-links"><a class="link-btn" href="https://www.earthandsky.co.nz/" target="_blank">🔗 導覽訂票</a><a class="link-btn" href="https://maps.google.com/?q=Mt+John+Observatory+Tekapo" target="_blank">📍 地圖</a></div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已預訂（Airbnb）</div>
-        <h4>Wanaka Airbnb</h4>
-        <div class="accom-meta">
-          <span>📍 瓦納卡市區</span>
-          <a href="https://www.airbnb.com.tw/rooms/285896" target="_blank">查看房源詳情</a>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 跳傘預訂確認 (Day 4)</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> Airbnb Check-in 資訊</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 油箱加滿</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>Tailor Made Tekapo</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Tailor+Made+Tekapo+Accommodation" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
@@ -1175,108 +826,19 @@
     <div class="day-header" onclick="toggleDay(4)">
       <div class="day-num-block"><span class="day-n">04</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>Wanaka 跳傘 🪂 → 移往<span style="color:var(--teal)">皇后鎮</span></h3>
-        <div class="day-meta">
-          <span>📅 4月19日（週六）</span>
-          <span>🚗 車程約 1 小時</span>
-          <span>💰 約 NT$7,000–9,000/人</span>
-          <span style="background:rgba(201,168,76,0.15);color:var(--must);padding:0.1rem 0.5rem;border-radius:2rem;font-size:0.65rem;border:1px solid rgba(201,168,76,0.4);">⛅ 雙軌備案日</span>
-        </div>
+        <h3>蒂卡波 → Lake Pukaki → <span style="color:var(--teal)">Wanaka</span></h3>
+        <div class="day-meta"><span>📅 4月18日（週五）</span><span>🚗 車程約 3 小時</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
-
-      <!-- 情況說明 -->
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
-        <div style="background:rgba(45,125,117,0.08);border:1px solid rgba(45,125,117,0.25);border-radius:6px;padding:1rem;">
-          <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:0.4rem;">✅ 情況一 · 天氣良好</div>
-          <div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">Wanaka 跳傘 → 午餐 → Crown Range → 皇后鎮<br><span style="color:var(--stone);font-size:0.75rem;">Day 6 安排 Shotover Jet</span></div>
-        </div>
-        <div style="background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.25);border-radius:6px;padding:1rem;">
-          <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--must);margin-bottom:0.4rem;">⛅ 情況二 · 天氣取消</div>
-          <div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">提早出發皇后鎮 → 下午 Shotover Jet<br><span style="color:var(--stone);font-size:0.75rem;">Day 6 改在皇后鎮補跳傘</span></div>
-        </div>
-      </div>
-
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">08:00</div>
-          <div class="stop-name">🌊 That Wanaka Tree + 湖畔早晨</div>
-          <div class="stop-desc">Wanaka 湖畔的孤獨柳樹，是紐西蘭最多人拍的網紅景點。清晨人少，湖面平靜如鏡，配上遠山晨光，是最佳拍攝時間。不論天氣如何，都值得清晨來此一遊。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.6988,169.1318" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 45 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">10:00</div>
-          <div class="stop-name">🪂 Skydive Wanaka <span class="badge badge-must">必玩</span> <span class="badge badge-book">提前預訂</span> <span class="badge badge-skydive">情況一</span></div>
-          <div class="stop-desc">從 15,000 呎（約 4,572 公尺）高空跳下，俯瞰 Wanaka 湖、庫克山脈與南島全景。這是世界上景觀最壯麗的跳傘地點之一。4人同行建議提前 3 週以上預訂。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.skydivewanaka.com/" target="_blank">🪂 官網訂位</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Skydive+Wanaka" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 2.5–3 小時（含等待）</span>
-            <span class="stop-info-item">💰 NZD 329–399/人 · 約 TWD 6,300–7,600</span>
-          </div>
-          <div class="note-box">⛅ <strong>若天氣取消（情況二）：</strong>跳傘公司早上會通知，確認取消後立即出發皇后鎮（約1小時），下午可安排 Shotover Jet（末班約 17:00，14:00 出發仍來得及）。影片/照片套餐另加 NZD 100–200。</div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">14:00 <span style="font-size:0.65rem;color:var(--teal)">（情況一）</span></div>
-          <div class="stop-name">🍕 Wanaka 午餐後出發皇后鎮</div>
-          <div class="stop-desc">推薦 Francesca's Italian Kitchen 或 Ritual Café。飯後沿 Crown Range Road 前往皇后鎮。</div>
-        </div>
-
-        <div class="transport-arrow">
-          <span class="arrow">↓</span>
-          <a class="link-btn" href="https://www.google.com/maps/dir/Wanaka/Queenstown" target="_blank">🚗 Wanaka → 皇后鎮 · Crown Range Road · 約 1 小時</a>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">15:30 <span style="font-size:0.65rem;color:var(--teal)">（情況一）</span></div>
-          <div class="stop-name">🏔️ Crown Range Summit 高山公路</div>
-          <div class="stop-desc">紐西蘭最高公路，海拔 1,076 公尺。沿途秋色滿山，Queenstown 盆地從山頂俯瞰的景象令人窒息。建議在頂部停車點停留拍照。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.9114,168.9034" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 20 分鐘</span>
-            <span class="stop-info-item">💰 免費</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">16:30</div>
-          <div class="stop-name">🏙️ 皇后鎮抵達 · Fergburger + Patagonia</div>
-          <div class="stop-desc">抵達皇后鎮後先打卡 Fergburger（推薦 Mr. Big Stuff），再到湖畔 Patagonia Chocolates 吃巧克力冰淇淋配夕陽。兩間步行可達，是完美的第一個皇后鎮傍晚。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Fergburger+Queenstown" target="_blank">📍 Fergburger</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Patagonia+Chocolates+Queenstown" target="_blank">📍 Patagonia</a>
-          </div>
-        </div>
-
+        <div class="stop"><div class="stop-time">早午餐</div><div class="stop-name">☕ 早午餐：The Greedy Cow Café</div><div class="stop-desc">蒂卡波出發前在此用餐，是當地熱門早午餐餐廳。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=The+Greedy+Cow+Tekapo" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 07:30–16:00</span></div></div>
+        <div class="stop must"><div class="stop-time">途中</div><div class="stop-name">💙 Lake Pukaki 普卡基湖</div><div class="stop-desc">比蒂卡波更深邃的藍，湖面正對庫克山，晴天時雪頂倒映於藍色湖面，壯觀至極。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Lake+Pukaki" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">午餐</div><div class="stop-name">🐟 午餐：Mt Cook Alpine Salmon Shop</div><div class="stop-desc">冰川水養殖鮭魚，新鮮鮭魚生魚片、煙燻鮭魚、魚腩漢堡，不能錯過。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Mt+Cook+Alpine+Salmon+Shop" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 09:00–17:00</span></div></div>
+        <div class="stop"><div class="stop-time">18:30</div><div class="stop-name">🍽️ 晚餐：The Stoaker Room Wanaka <span class="badge badge-must">已預訂</span></div><div class="stop-desc">Wanaka 高人氣餐廳，已預訂 18:30 場次。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=The+Stoaker+Room+Wanaka" target="_blank">📍 地圖</a></div></div>
       </div>
-
-      <div class="note-box">🏨 皇后鎮住宿：Day 4–6 連住 3 晚（請確認預訂，若尚未訂請提前至少 6–8 週）</div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 跳傘前晚飽睡</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 確認早上天氣通知</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 穿著舒適（跳傘穿衣建議）</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 若取消：Shotover Jet 臨時預訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 皇后鎮住宿 Check-in</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>Little Lodge Wanaka</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Little+Lodge+Wanaka" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
@@ -1285,77 +847,26 @@
     <div class="day-header" onclick="toggleDay(5)">
       <div class="day-num-block"><span class="day-n">05</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>皇后鎮 纜車 🚡 &amp; 動物園 🦌</h3>
-        <div class="day-meta">
-          <span>📅 4月20日（週日）</span>
-          <span>🚗 市區移動</span>
-          <span>💰 約 NT$4,000–5,000/人</span>
-        </div>
+        <h3>Wanaka 跳傘 🪂 → <span style="color:var(--teal)">皇后鎮</span></h3>
+        <div class="day-meta"><span>📅 4月19日（週六）</span><span>🚗 車程約 1 小時</span><span style="background:rgba(201,168,76,0.15);color:var(--must);padding:0.1rem 0.5rem;border-radius:2rem;font-size:0.65rem;border:1px solid rgba(201,168,76,0.4);">⛅ 雙軌備案日</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
+        <div style="background:rgba(45,125,117,0.08);border:1px solid rgba(45,125,117,0.25);border-radius:6px;padding:1rem;"><div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:0.4rem;">✅ 天氣良好</div><div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">Wanaka 跳傘 ✅<br>途中考慮 Shotover Jet<br>→ 皇后鎮</div></div>
+        <div style="background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.25);border-radius:6px;padding:1rem;"><div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--must);margin-bottom:0.4rem;">⛅ 天氣取消</div><div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">提早前往皇后鎮<br>下午 Shotover Jet<br>Day 7 補跳傘</div></div>
+      </div>
       <div class="stops-timeline">
-
-        <div class="stop must">
-          <div class="stop-time">09:30</div>
-          <div class="stop-name">🚡 Skyline Gondola &amp; Luge 纜車+滑車 <span class="badge badge-must">必玩</span></div>
-          <div class="stop-desc">搭乘纜車登上鮑勃山頂，從高處俯瞰皇后鎮全景與瓦卡蒂普湖。山頂可乘坐重力滑車（Luge），5次套票 NZD 55（TWD 1,057）。建議早去避免下午排隊。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.skyline.co.nz/queenstown/" target="_blank">🔗 官網訂票</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Skyline+Queenstown" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 2–3 小時</span>
-            <span class="stop-info-item">💰 纜車+5次Luge TWD ~1,775/人</span>
-            <span class="stop-info-item">🕐 09:00–21:00</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">12:30</div>
-          <div class="stop-name">🍔 午餐 · 湖畔餐廳</div>
-          <div class="stop-desc">推薦 The Dairy（外帶便利）、Vudu Café（早午餐）或 Fishbone Bar &amp; Grill（海鮮）。</div>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">14:00</div>
-          <div class="stop-name">🦌 Deer Park Heights 看動物 <span class="badge badge-must">必訪</span> <span class="badge badge-book">需提前訂</span></div>
-          <div class="stop-desc">俯瞰皇后鎮的鹿場，可近距離接觸袋鼠、鹿、羊駝等動物，風景極佳。注意：需有車牌後且提前1個月才能預訂！請盡快安排。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.deerparkheights.co.nz/" target="_blank">🔗 立即預訂</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Deer+Park+Heights+Queenstown" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1.5–2 小時</span>
-            <span class="stop-info-item">💰 NZD 75/人 · 約 TWD 1,450</span>
-            <span class="stop-info-item">⚠️ 需提前 1 個月預訂且需有車牌</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">晚上</div>
-          <div class="stop-name">🚢 蒸汽船 TSS Earnslaw（可選）</div>
-          <div class="stop-desc">百年歷史的蒸汽煤炭輪船，黃昏時分遊覽瓦卡蒂普湖。可選純觀光遊湖（NZD 45）或加碼 Walter Peak 農場晚餐（NZD 120+）。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.realjourneys.co.nz/en/experiences/queenstown/tss-earnslaw-cruise/" target="_blank">🔗 預訂遊船</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">💰 NZD 45–120/人</span>
-            <span class="stop-info-item">⏱ 1.5–3 小時</span>
-          </div>
-        </div>
-
+        <div class="stop"><div class="stop-time">早上</div><div class="stop-name">🌊 Wanaka 湖畔 · That Wanaka Tree</div><div class="stop-desc">Wanaka 湖畔的孤獨柳樹，清晨湖面平靜如鏡，是最佳拍攝時機。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=That+Wanaka+Tree" target="_blank">📍 地圖</a></div></div>
+        <div class="stop must"><div class="stop-time">上午</div><div class="stop-name">🪂 Skydive Wanaka <span class="badge badge-must">必玩</span> <span class="badge badge-book">🎫 楚茵未定</span></div><div class="stop-desc">從 15,000 呎高空跳下，俯瞰 Wanaka 湖與庫克山脈，是世界最壯麗的跳傘地點之一。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.skydivewanaka.com/" target="_blank">🪂 官網訂位</a><a class="link-btn" href="https://maps.google.com/?q=Skydive+Wanaka" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 NZD 329–399/人</span></div></div>
+        <div class="stop"><div class="stop-time">午餐</div><div class="stop-name">🥞 午餐：Charlie Brown Crepes</div><div class="stop-desc">Wanaka 人氣可麗餅店，甜鹹皆有，是 Wanaka 的午餐好選擇。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Charlie+Brown+Crepes+Wanaka" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 08:00–16:00</span></div></div>
+        <div class="stop"><div class="stop-time">途中（視情況）</div><div class="stop-name">🚤 Shotover Jet 噴射快艇 <span class="badge badge-must">必玩</span> <span class="badge badge-book">🎫 未定</span></div><div class="stop-desc">在僅剩 10 公分水位的峽谷中以 85 公里/小時飆馳，360 度急轉彎驚心動魄。天氣好時可在抵達皇后鎮途中安排，或移至 Day 7。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.shotoverjet.com/" target="_blank">🚤 官網訂票</a><a class="link-btn" href="https://maps.google.com/?q=Shotover+Jet+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 NZD 159/人</span></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🏙️ 皇后鎮市區觀光 · 找牢的信物</div><div class="stop-desc">皇后鎮市區逛街，尋找專屬紀念品。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Queenstown+Town+Centre" target="_blank">📍 市中心</a></div></div>
+        <div class="stop"><div class="stop-time">下午點心</div><div class="stop-name">🍫 Patagonia Chocolates</div><div class="stop-desc">皇后鎮湖畔最著名的手工巧克力冰淇淋，配上瓦卡蒂普湖的夕陽景色。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Patagonia+Chocolates+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 09:00–23:00</span></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍔 晚餐：Fergburger</div><div class="stop-desc">全球最知名的漢堡店，幾乎 24 小時營業。推薦 Mr. Big Stuff 或 Little Lamby。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Fergburger+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 07:00–02:30</span></div></div>
       </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> Skyline 纜車票已訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> Deer Park 確認預訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 蒸汽船視心情決定</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂（連住 2 晚）</div><h4>Terrace Apartment 4 with Mountain View</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Terrace+Apartments+Queenstown" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
@@ -1364,515 +875,127 @@
     <div class="day-header" onclick="toggleDay(6)">
       <div class="day-num-block"><span class="day-n">06</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>皇后鎮上半日 🍂 → <span style="color:var(--teal)">蒂阿瑙</span> 螢火蟲洞 🪲</h3>
-        <div class="day-meta">
-          <span>📅 4月21日（週一）</span>
-          <span>🚗 車程輕鬆</span>
-          <span>💰 約 NT$4,000–7,000/人</span>
-          <span style="background:rgba(201,168,76,0.15);color:var(--must);padding:0.1rem 0.5rem;border-radius:2rem;font-size:0.65rem;border:1px solid rgba(201,168,76,0.4);">⛅ 雙軌備案日</span>
-        </div>
+        <h3>皇后鎮 · 纜車 🚡 鹿場 🦌</h3>
+        <div class="day-meta"><span>📅 4月20日（週日）</span><span>🏙️ Queenstown</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
-
-      <!-- 情況說明 -->
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem;">
-        <div style="background:rgba(45,125,117,0.08);border:1px solid rgba(45,125,117,0.25);border-radius:6px;padding:1rem;">
-          <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--teal);margin-bottom:0.4rem;">✅ 情況一 · Day 4 跳傘成功</div>
-          <div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">早上 Arrowtown 秋楓 →<br>下午 <strong>Shotover Jet 噴射快艇</strong> →<br>傍晚 Glenorchy（視時間）</div>
-        </div>
-        <div style="background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.25);border-radius:6px;padding:1rem;">
-          <div style="font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--must);margin-bottom:0.4rem;">⛅ 情況二 · Day 4 跳傘取消</div>
-          <div style="font-size:0.82rem;color:var(--ink);line-height:1.6;">早上 Arrowtown 秋楓 →<br>下午 <strong>Skydive Queenstown 補跳傘</strong> →<br>（Shotover Jet 已於 Day 4 完成）</div>
-        </div>
-      </div>
-
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">09:00</div>
-          <div class="stop-name">🍂 Arrowtown 箭鎮 <span class="badge badge-must">兩種情況都去</span></div>
-          <div class="stop-desc">19世紀淘金熱小鎮，保留完整維多利亞時代建築。4月秋天是最美時節，街道兩旁楓樹金黃，是南島最上鏡的秋色景點，必逛中國人老街（Buckingham Street）與淘金博物館（免費）。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.9381,168.8306" target="_blank">📍 地圖</a>
-            <a class="link-btn" href="https://www.google.com/maps/dir/Queenstown/Arrowtown" target="_blank">🚗 路線 · 20 分鐘</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1.5–2 小時</span>
-            <span class="stop-info-item">💰 免費（購物自費）</span>
-          </div>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">13:00 <span style="font-size:0.65rem;color:var(--teal)">（情況一）</span></div>
-          <div class="stop-name">🚤 Shotover Jet 噴射快艇 <span class="badge badge-must">必玩</span> <span class="badge badge-book">提前預訂</span></div>
-          <div class="stop-desc">在僅剩 10 公分水位的峽谷中以 85 公里/小時飆馳，360 度急轉彎驚心動魄，是皇后鎮最刺激的活動。下午場人潮稍多，建議訂 13:00 或 14:00 場。記得帶換洗衣物，保證全濕！</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.shotoverjet.com/" target="_blank">🚤 官網訂票</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Shotover+Jet+Queenstown" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1 小時（含集合）</span>
-            <span class="stop-info-item">💰 NZD 159/人 · 約 TWD 3,060</span>
-            <span class="stop-info-item">🕐 09:00–17:00</span>
-          </div>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">13:00 <span style="font-size:0.65rem;color:var(--must)">（情況二）</span></div>
-          <div class="stop-name">🪂 Skydive Queenstown 補跳傘 <span class="badge badge-must">必玩</span> <span class="badge badge-skydive">情況二備案</span></div>
-          <div class="stop-desc">情況二的跳傘補救方案。Skydive Queenstown 同樣提供 15,000 呎高空跳傘，俯瞰皇后鎮、瓦卡蒂普湖與雪山，景觀與 Wanaka 各有千秋，同樣精彩。可當天早上聯絡安排，但仍建議提前預訂備位。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.nzoneskydive.co.nz/" target="_blank">🪂 Skydive Queenstown 官網</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Skydive+Queenstown" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 2.5–3 小時</span>
-            <span class="stop-info-item">💰 NZD 299–399/人 · 約 TWD 5,750–7,660</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">16:30（視情況）</div>
-          <div class="stop-name">🏔️ Glenorchy 葛諾奇小鎮（若有時間）</div>
-          <div class="stop-desc">若當天活動結束較早，可前往皇后鎮西北方 45 分鐘的《魔戒》拍攝地，湖光山色令人震撼。若時間不夠也無妨，Arrowtown + 主活動已經很充實。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.8534,168.3695" target="_blank">📍 地圖</a>
-            <a class="link-btn" href="https://www.google.com/maps/dir/Queenstown/Glenorchy+New+Zealand" target="_blank">🚗 路線 · 45 分鐘</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 1.5–2 小時（來回含停留）</span>
-            <span class="stop-info-item">💰 免費</span>
-            <span class="stop-info-item">🐎 可選騎馬體驗 NZD 95/人</span>
-          </div>
-        </div>
-
+        <div class="stop must"><div class="stop-time">上午</div><div class="stop-name">🚡 Skyline Luge 纜車＋滑車 <span class="badge badge-book">🎫 未定</span></div><div class="stop-desc">搭纜車登上鮑勃山頂俯瞰皇后鎮全景，山頂乘坐重力滑車（Luge）5 次。建議早去避免下午排隊。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.skyline.co.nz/queenstown/" target="_blank">🔗 官網訂票</a><a class="link-btn" href="https://maps.google.com/?q=Skyline+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 未定（TWD 約 ~1,775/人）</span></div></div>
+        <div class="stop"><div class="stop-time">早午餐</div><div class="stop-name">☕ 早午餐：The Boat Shed Café</div><div class="stop-desc">皇后鎮湖畔人氣早午餐咖啡廳，環境優美。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=The+Boat+Shed+Cafe+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">🕐 08:00–16:00</span></div></div>
+        <div class="stop must"><div class="stop-time">下午</div><div class="stop-name">🦌 Deer Park Heights 鹿場 <span class="badge badge-must">✅ 已訂</span></div><div class="stop-desc">俯瞰皇后鎮的鹿場，可近距離接觸袋鼠、鹿、羊駝等動物。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.deerparkheights.co.nz/" target="_blank">🔗 官網</a><a class="link-btn" href="https://maps.google.com/?q=Deer+Park+Heights+Queenstown" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 TWD 1,390 / 4人</span><span class="stop-info-item">✅ 已訂</span></div></div>
+        <div class="stop"><div class="stop-time">有空時</div><div class="stop-name">🚢 市區觀光 or 蒸汽船（可選）</div><div class="stop-desc">若有閒暇，可在市區漫步或搭乘百年蒸汽船 TSS Earnslaw 遊湖。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Queenstown+Wharf" target="_blank">📍 碼頭</a></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮</div></div>
       </div>
-
-      <!-- 螢火蟲洞 -->
-        <div class="stop must" style="margin-top:1rem;">
-          <div class="stop-time">晚上（抵達蒂阿瑙後）</div>
-          <div class="stop-name">🪲 Te Anau 螢火蟲洞 <span class="badge badge-must">必去</span> <span class="badge badge-book">需預訂</span></div>
-          <div class="stop-desc">抵達蒂阿瑙後前往螢火蟲洞。洞頂密布螢火蟲如銀河般璀璨，全程搭船進入洞穴，靜默沉浸在藍綠螢光中。可訂 19:00 或 20:15 場次。若當天時間太趕，可移至 Day 8 早上補看。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.realjourneys.co.nz/en/experiences/te-anau/te-anau-glowworm-caves/" target="_blank">🔗 Real Journeys 訂票</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-45.4144,167.7188" target="_blank">📍 Te Anau</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 約 2.5 小時</span>
-            <span class="stop-info-item">💰 NZD 92/人 · 約 TWD 1,770</span>
-            <span class="stop-info-item">🕐 場次：19:00 / 20:15</span>
-          </div>
-          <div class="note-box">⚠️ 若 Shotover Jet 或補跳傘結束後時間太趕，螢火蟲洞可移至 Day 8 早上 10:15 場次觀看，再出發 Twizel。</div>
-        </div>
-
-      <div class="accom-card" style="margin-top:1.5rem;">
-        <div class="accom-label">今晚住宿 · 已訂</div>
-        <h4>Te Anau 住宿</h4>
-        <div class="accom-meta">
-          <span>📍 蒂阿瑙市區</span>
-          <span>✅ 已完成預訂</span>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 確認今天是情況一或情況二</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 情況一：Shotover Jet 已訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 情況二：Skydive QT 已預約</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 備換衣物（快艇會全濕）</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 螢火蟲洞晚場已訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 下午準時出發蒂阿瑙（勿晚於17:00）</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>Terrace Apartment 4 with Mountain View</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Terrace+Apartments+Queenstown" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
   <!-- ─── DAY 7 ─── -->
-  <div class="day-card visible" data-day="7" id="day7" style="border-left: 3px solid var(--gold);">
+  <div class="day-card visible" data-day="7" id="day7">
     <div class="day-header" onclick="toggleDay(7)">
-      <div class="day-num-block" style="background: var(--teal);"><span class="day-n">07</span><span class="day-label">Day</span></div>
+      <div class="day-num-block"><span class="day-n">07</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>蒂阿瑙 → <span style="color:var(--teal)">米佛峽灣</span> 一日遊 ⛴️</h3>
-        <div class="day-meta">
-          <span>📅 4月22日（週二）</span>
-          <span>🚌 從蒂阿瑙出發</span>
-          <span>💰 約 NT$5,000–7,000/人</span>
-        </div>
+        <h3>皇后鎮 → Arrowtown → <span style="color:var(--teal)">蒂阿瑙</span></h3>
+        <div class="day-meta"><span>📅 4月21日（週一）</span><span>🚗 車程約 2 小時</span><span style="background:rgba(201,168,76,0.15);color:var(--must);padding:0.1rem 0.5rem;border-radius:2rem;font-size:0.65rem;border:1px solid rgba(201,168,76,0.4);">⛅ 補跳傘/Shotover 備案日</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop must">
-          <div class="stop-time">07:30</div>
-          <div class="stop-name">🚌 從蒂阿瑙出發米佛峽灣巴士 <span class="badge badge-must">必去</span> <span class="badge badge-book">提前預訂</span></div>
-          <div class="stop-desc">從蒂阿瑙出發比從皇后鎮近（約 2 小時 vs 4 小時），沿途經過 Mirror Lakes、The Divide、Homer Tunnel 等壯觀風景。抵達 Milford Sound 後搭 2 小時遊船，觀賞峽灣、瀑布、海豹、海豚。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.realjourneys.co.nz/en/experiences/milford-sound/" target="_blank">🔗 Real Journeys 訂位</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 全天約 07:30–19:00</span>
-            <span class="stop-info-item">💰 巴士+遊船 NZD 180–250/人 · 約 TWD 3,500–4,800</span>
-          </div>
-          <div class="note-box">⚠️ 米佛峽灣雨天機率高（年均降雨 7 公尺），雨天反而瀑布更壯觀！記得帶雨衣。</div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">10:30</div>
-          <div class="stop-name">⛴️ Milford Sound 遊船</div>
-          <div class="stop-desc">2小時遊船穿越峽灣，必看：Mitre Peak 主教帽山（海拔1,692m直接從海面拔起）、Stirling Falls 瀑布（可近距離感受水霧）、海豹礁岩與海豚。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=-44.6417,167.8969" target="_blank">📍 Milford Sound</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">19:00</div>
-          <div class="stop-name">🏠 返抵蒂阿瑙</div>
-          <div class="stop-desc">回蒂阿瑙後輕食晚餐休息，明天一早出發 Twizel。</div>
-        </div>
-
+        <div class="stop"><div class="stop-time">上午（視情況）</div><div class="stop-name">🪂 補跳傘 or 🚤 Shotover Jet <span class="badge badge-book">🎫 未定</span></div><div class="stop-desc">若 Day 5 跳傘因天候取消，今天在皇后鎮補跳（Skydive Queenstown）；或若 Shotover Jet 尚未安排，今日上午完成。</div><div class="stop-links"><a class="link-btn" href="https://www.nzoneskydive.co.nz/" target="_blank">🪂 Skydive QT</a><a class="link-btn" href="https://www.shotoverjet.com/" target="_blank">🚤 Shotover Jet</a></div><div class="stop-info-row"><span class="stop-info-item">💰 跳傘 NZD 299–399/人 ｜ Shotover NZD 159/人</span></div></div>
+        <div class="stop"><div class="stop-time">上午</div><div class="stop-name">🍂 Arrowtown 箭鎮</div><div class="stop-desc">19世紀淘金熱小鎮，4月秋天楓葉金黃，街道兩旁美不勝收，必逛中國人老街。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Arrowtown+New+Zealand" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">午餐</div><div class="stop-name">🍽️ 午餐：Arrowtown 市區解決</div><div class="stop-desc">在 Arrowtown 小鎮內尋找午餐，推薦 Provisions of Arrowtown 或 Patos。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Arrowtown+cafes" target="_blank">📍 箭鎮餐廳</a></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🚗 開車至蒂阿瑙</div><div class="stop-desc">從皇后鎮往南約 1.5–2 小時抵達 Te Anau。建議在天黑前抵達。</div><div class="stop-links"><a class="link-btn" href="https://www.google.com/maps/dir/Queenstown/Te+Anau" target="_blank">🚗 路線 · 約 1.5 小時</a></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮</div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已訂</div>
-        <h4>Te Anau 住宿</h4>
-        <div class="accom-meta">
-          <span>📍 蒂阿瑙（連住第2晚）</span>
-          <span>✅ 已完成預訂</span>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 米佛一日遊已預訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 雨衣/防水外套</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 自備午餐/零食</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 確認明日 Twizel 住宿</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂（連住 2 晚）</div><h4>Parklands Motel, Te Anau</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Parklands+Motel+Te+Anau" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
   <!-- ─── DAY 8 ─── -->
-  <div class="day-card visible" data-day="8" id="day8" style="border-left: 3px solid var(--gold);">
+  <div class="day-card visible" data-day="8" id="day8">
     <div class="day-header" onclick="toggleDay(8)">
-      <div class="day-num-block" style="background: var(--teal);"><span class="day-n">08</span><span class="day-label">Day</span></div>
+      <div class="day-num-block"><span class="day-n">08</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>蒂阿瑙 → <span style="color:var(--teal)">Twizel</span> 北上庫克山</h3>
-        <div class="day-meta">
-          <span>📅 4月23日（週三）</span>
-          <span>🚗 車程約 4.5 小時</span>
-          <span>💰 約 NT$1,500/人</span>
-        </div>
+        <h3>蒂阿瑙 → <span style="color:var(--teal)">米佛峽灣</span> 一日遊 ⛴️</h3>
+        <div class="day-meta"><span>📅 4月22日（週二）</span><span>🚌 米佛峽灣一日遊</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">早上（參考行程）</div>
-          <div class="stop-name">🪲 螢火蟲洞補看 <span class="badge" style="background:rgba(139,139,122,0.1);color:var(--stone);border:1px solid rgba(139,139,122,0.3);">參考行程</span></div>
-          <div class="stop-desc">若 Day 6 晚上來不及看螢火蟲洞，可在今天早上訂 10:15 場次補看（約 2.5 小時），結束後再出發 Twizel。注意：加上螢火蟲洞後，今日總移動時間約 4.5 小時，接近上限，需早起。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.realjourneys.co.nz/en/experiences/te-anau/te-anau-glowworm-caves/" target="_blank">🔗 Real Journeys 訂票</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">🕐 場次 10:15</span>
-            <span class="stop-info-item">💰 NZD 92/人 · 約 TWD 1,770</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">08:30（直接出發）/ 13:00（補看後）</div>
-          <div class="stop-name">🚗 蒂阿瑙出發前往 Twizel</div>
-          <div class="stop-desc">沿途景色壯闊，可在 Lumsden 或 Fairlie 補給休息。建議不趕路，保留體力給明天庫克山健行。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.google.com/maps/dir/Te+Anau/Twizel" target="_blank">🚗 路線 · 約 4.5 小時</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">傍晚</div>
-          <div class="stop-name">🏨 抵達 Twizel</div>
-          <div class="stop-desc">Twizel 是庫克山的補給基地，住宿價格比庫克山村親民，距庫克山村約 1 小時車程。晚餐推薦 Mackenzie's Bar & Grill 或自行採買備餐。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Twizel+New+Zealand" target="_blank">📍 Twizel</a>
-          </div>
-        </div>
-
+        <div class="stop"><div class="stop-time">早午餐</div><div class="stop-name">☕ 早午餐：Sandfly Café Te Anau</div><div class="stop-desc">蒂阿瑙在地人氣咖啡廳，出發前在此補充體力。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Sandfly+Cafe+Te+Anau" target="_blank">📍 地圖</a></div></div>
+        <div class="stop must"><div class="stop-time">10:00</div><div class="stop-name">⛴️ 米佛峽灣一日遊巴士＋遊船 <span class="badge badge-must">✅ 已訂</span></div><div class="stop-desc">從蒂阿瑙出發，沿途經 Mirror Lakes、Homer Tunnel 等風景。抵達米佛峽灣搭 2 小時遊船，觀賞 Mitre Peak 主教帽山、Stirling Falls 瀑布、海豹與海豚。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.realjourneys.co.nz/" target="_blank">🔗 Real Journeys</a><a class="link-btn" href="https://maps.google.com/?q=Milford+Sound" target="_blank">📍 米佛峽灣</a></div><div class="stop-info-row"><span class="stop-info-item">💰 TWD 4,416/人 ✅ 已訂</span><span class="stop-info-item">🕐 出發 10:00</span></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮</div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已訂</div>
-        <h4>Twizel 住宿</h4>
-        <div class="accom-meta">
-          <span>📍 Twizel</span>
-          <span>✅ 已完成預訂</span>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 若補看螢火蟲：提前預訂10:15場</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 油箱加滿再出發</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 明日庫克山健行裝備備妥</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>Parklands Motel, Te Anau（第 2 晚）</h4><div class="accom-meta"><a href="https://maps.google.com/?q=Parklands+Motel+Te+Anau" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
-
-  <!-- ─── DAY 9 （新規劃）─── -->
-  <div class="day-card visible" data-day="9" id="day9" style="border-left: 3px solid var(--gold);">
+  <!-- ─── DAY 9 ─── -->
+  <div class="day-card visible" data-day="9" id="day9">
     <div class="day-header" onclick="toggleDay(9)">
-      <div class="day-num-block" style="background: var(--teal);"><span class="day-n">09</span><span class="day-label">Day</span></div>
+      <div class="day-num-block"><span class="day-n">09</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>🏔️ 庫克山 <em>Aoraki</em> 冰川健行日</h3>
-        <div class="day-meta">
-          <span>📅 4月24日（週四）</span>
-          <span>🆕 新規劃</span>
-          <span>🥾 健行為主</span>
-          <span>💰 約 NT$4,000–8,000/人</span>
-        </div>
+        <h3>🪲 螢火蟲洞 → 蒂阿瑙 → <span style="color:var(--teal)">Twizel</span></h3>
+        <div class="day-meta"><span>📅 4月23日（週三）</span><span>🚗 車程約 4.5 小時</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop must">
-          <div class="stop-time">07:30</div>
-          <div class="stop-name">🏔️ 前往 Aoraki/Mount Cook National Park <span class="badge badge-must">必去</span></div>
-          <div class="stop-desc">從 Twizel 出發沿 80 號公路直奔庫克山，沿途普卡基湖配上庫克山的震撼全景讓人屏息。建議早出發搶好天氣與光線。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.google.com/maps/dir/Twizel/Mount+Cook+Village" target="_blank">🚗 路線 · 約 1 小時</a>
-            <a class="link-btn" href="https://maps.google.com/?q=-43.7367,170.0969" target="_blank">📍 庫克山村</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">09:00</div>
-          <div class="stop-name">🥾 Hooker Valley Track 胡克冰河步道</div>
-          <div class="stop-desc">庫克山最熱門的步道（免費），全程來回約 10 公里、3 小時。途經三座吊橋、穿越翡翠色冰川湖，最終可見浮冰與庫克山倒影，是紐西蘭最壯觀的健行路線之一。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Hooker+Valley+Track" target="_blank">📍 步道地圖</a>
-            <a class="link-btn" href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/" target="_blank">🔗 DOC 官方資訊</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 3 小時來回</span>
-            <span class="stop-info-item">💰 免費</span>
-            <span class="stop-info-item">👟 難度：輕鬆（雙向平路）</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">13:00</div>
-          <div class="stop-name">🍽️ 午餐 · Old Mountaineers Café</div>
-          <div class="stop-desc">庫克山村內最有氣氛的餐廳，可邊用餐邊欣賞庫克山，試試南島羊肉派或薯條組合。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Old+Mountaineers+Cafe+Mount+Cook" target="_blank">📍 地圖</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">14:30</div>
-          <div class="stop-name">🛩️ 冰川直升機體驗（可選升級）</div>
-          <div class="stop-desc">如預算充裕，強烈推薦搭乘直升機降落冰川（Snow Landing），從高空俯瞰塔斯曼冰河全景，是一生難忘的體驗。需提前預訂。</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.glacierexplorers.com/" target="_blank">🔗 The Glacier Explorers</a>
-            <a class="link-btn" href="https://www.helicopterline.co.nz/" target="_blank">🚁 直升機訂位</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">💰 冰川遊船 NZD 190/人 · 直升機 NZD 450+</span>
-            <span class="stop-info-item">⏱ 2–3 小時</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">17:00</div>
-          <div class="stop-name">🌅 庫克山夕照 · Tasman Valley Viewpoint</div>
-          <div class="stop-desc">傍晚時分塔斯曼冰河谷地呈現金紅光芒，是攝影的黃金時間。</div>
-        </div>
-
+        <div class="stop must"><div class="stop-time">10:15</div><div class="stop-name">🪲 Te Anau 螢火蟲洞 <span class="badge badge-must">✅ 已訂</span></div><div class="stop-desc">Te Anau 湖底的石灰岩洞穴，洞頂密布螢火蟲如銀河般璀璨。全程搭船進入，靜默沉浸在藍綠螢光中，洞內禁止拍照。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.realjourneys.co.nz/" target="_blank">🔗 Real Journeys</a><a class="link-btn" href="https://maps.google.com/?q=Te+Anau+Glowworm+Caves" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 TWD 2,658/人 ✅ 已訂</span><span class="stop-info-item">🕐 10:15 場次</span></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🚗 蒂阿瑙出發 → Twizel（原路返回）</div><div class="stop-desc">路途較長，沿途可補去之前錯過的景點或活動。建議不趕路，沿途欣賞風景。</div><div class="stop-links"><a class="link-btn" href="https://www.google.com/maps/dir/Te+Anau/Twizel" target="_blank">🚗 路線 · 約 4.5 小時</a></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮</div></div>
       </div>
-
-      <div class="note-box">🏨 今晚住宿庫克山村或 Twizel。庫克山村內 Hermitage Hotel（高端，景觀絕佳，NZD 400+）或 YHA Aoraki Mount Cook（平價，NZD 50–100）。建議提前 2–3 個月預訂！</div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 今日清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 健行鞋/防水外套</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 防曬/太陽眼鏡（雪地反光）</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 自備午餐零食</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 庫克山住宿確認</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂（連住 2 晚）</div><h4>The Rest, Twizel</h4><div class="accom-meta"><a href="https://maps.google.com/?q=The+Rest+Twizel" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
   <!-- ─── DAY 10 ─── -->
-  <div class="day-card visible" data-day="10" id="day10" style="border-left: 3px solid var(--gold);">
+  <div class="day-card visible" data-day="10" id="day10">
     <div class="day-header" onclick="toggleDay(10)">
-      <div class="day-num-block" style="background: var(--teal);"><span class="day-n">10</span><span class="day-label">Day</span></div>
+      <div class="day-num-block"><span class="day-n">10</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>Twizel → <span style="color:var(--teal)">基督城</span> 返回</h3>
-        <div class="day-meta">
-          <span>📅 4月25日（週五）</span>
-          <span>🚗 車程約 3.5 小時</span>
-          <span>💰 約 NT$1,500/人</span>
-        </div>
+        <h3>🏔️ <span style="color:var(--teal)">庫克山</span> 健行日</h3>
+        <div class="day-meta"><span>📅 4月24日（週四）</span><span>🥾 健行為主</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">08:30</div>
-          <div class="stop-name">🚗 出發前往基督城</div>
-          <div class="stop-desc">取道 Lake Pukaki → Tekapo 回程，沿途可順道停留蒂卡波湖再看最後一眼，約 3.5 小時抵達基督城。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.google.com/maps/dir/Twizel/Christchurch" target="_blank">🚗 路線 · 約 3.5 小時</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">途中（參考行程）</div>
-          <div class="stop-name">💙 Lake Pukaki 最後一眼 <span class="badge" style="background:rgba(139,139,122,0.1);color:var(--stone);border:1px solid rgba(139,139,122,0.3);">參考行程</span></div>
-          <div class="stop-desc">順道停留普卡基湖，再一次欣賞那片不真實的藍色湖水與庫克山倒影。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Lake+Pukaki" target="_blank">📍 地圖</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">13:00</div>
-          <div class="stop-name">🏙️ 抵達基督城 · 下午自由活動</div>
-          <div class="stop-desc">可前往 Cashel Street 購物採購紀念品（Merino 羊毛、蜂蜜、葡萄酒），或到 Riverside Market 再逛一次，或在 Christchurch Art Gallery 吹冷氣休息。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Christchurch+City+Centre" target="_blank">📍 市中心</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">18:00</div>
-          <div class="stop-name">🍷 晚餐 · 基督城</div>
-          <div class="stop-desc">推薦 Gatherings（南島食材創意料理）或 Riverside Market 覓食。</div>
-        </div>
-
+        <div class="stop"><div class="stop-time">早上出發</div><div class="stop-name">🔭 Peter's Lookout</div><div class="stop-desc">普卡基湖最佳俯瞰點，可一覽湖面、麥肯齊平原與遠處庫克山的全景。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Peters+Lookout+Lake+Pukaki" target="_blank">📍 地圖</a></div></div>
+        <div class="stop must"><div class="stop-time">上午</div><div class="stop-name">🥾 Hooker Valley Track 胡克冰河步道</div><div class="stop-desc">庫克山最熱門步道，來回約 10 公里、3 小時。途經三座吊橋，最終可見浮冰與庫克山倒影。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Hooker+Valley+Track" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">⏱ 3 小時來回</span><span class="stop-info-item">💰 免費</span></div></div>
+        <div class="stop"><div class="stop-time">上午（可選）</div><div class="stop-name">🥾 Kea Point Track</div><div class="stop-desc">比 Hooker Valley 短（單程 1 小時），可近距離欣賞庫克山冰川。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Kea+Point+Track+Mount+Cook" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">下午（可選）</div><div class="stop-name">🥾 Tasman Lake Track</div><div class="stop-desc">前往塔斯曼冰河湖，可見浮冰與壯觀冰河地形。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Tasman+Lake+Track" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">下午（考慮中）</div><div class="stop-name">🛩️ 冰川健行（考慮中）</div><div class="stop-desc">搭直升機降落冰川體驗，是一生難忘的活動。視當天時間與體力決定。</div><div class="stop-links"><a class="link-btn" href="https://www.helicopterline.co.nz/" target="_blank">🚁 直升機訂位</a></div><div class="stop-info-row"><span class="stop-info-item">💰 NZD 450+/人</span></div></div>
+        <div class="stop"><div class="stop-time">傍晚</div><div class="stop-name">🚗 早點下山回 Twizel</div><div class="stop-desc">建議下午提早下山，避免摸黑開山路。</div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮</div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已訂</div>
-        <h4>基督城住宿</h4>
-        <div class="accom-meta">
-          <span>📍 基督城</span>
-          <span>✅ 已完成預訂</span>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>The Rest, Twizel（第 2 晚）</h4><div class="accom-meta"><a href="https://maps.google.com/?q=The+Rest+Twizel" target="_blank">📍 Google Maps</a></div></div>
+      <div class="checklist"><div class="checklist-title">📋 今日清單</div><div class="checklist-items"><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 健行鞋/防水外套</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 防曬/太陽眼鏡（雪地反光）</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 自備午餐零食</div></div></div>
     </div>
   </div>
 
   <!-- ─── DAY 11 ─── -->
-  <div class="day-card visible" data-day="11" id="day11" style="border-left: 3px solid var(--gold);">
+  <div class="day-card visible" data-day="11" id="day11">
     <div class="day-header" onclick="toggleDay(11)">
-      <div class="day-num-block" style="background: var(--teal);"><span class="day-n">11</span><span class="day-label">Day</span></div>
+      <div class="day-num-block"><span class="day-n">11</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>基督城 → <span style="color:var(--teal)">凱庫拉</span> 賞鯨 🐋 → 基督城</h3>
-        <div class="day-meta">
-          <span>📅 4月26日（週六）</span>
-          <span>🚗 來回約 3 小時</span>
-          <span>💰 約 NT$4,000–5,000/人</span>
-        </div>
+        <h3>Twizel → <span style="color:var(--teal)">基督城</span> 返回</h3>
+        <div class="day-meta"><span>📅 4月25日（週五）</span><span>🚗 沿路走走停停</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
-
-        <div class="stop">
-          <div class="stop-time">07:30</div>
-          <div class="stop-name">🚗 出發前往凱庫拉</div>
-          <div class="stop-desc">基督城往北開約 1.5 小時，沿途海岸公路風景優美，可見太平洋與雪山相映。建議早出發趕上早上的賞鯨場次。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://www.google.com/maps/dir/Christchurch/Kaikoura" target="_blank">🚗 路線 · 約 1.5 小時</a>
-          </div>
-        </div>
-
-        <div class="stop must">
-          <div class="stop-time">10:00</div>
-          <div class="stop-name">🐋 Whale Watch Kaikōura 賞鯨 <span class="badge badge-must">必去</span> <span class="badge badge-book">⚠️ 優先預訂</span></div>
-          <div class="stop-desc">全球少數可以全年看到抹香鯨的地方之一。搭乘專業賞鯨船出海，導覽員會協助找尋鯨魚蹤跡，也常見海豚、信天翁同場加映。全程約 2.5 小時。這是整趟旅程最容易客滿的活動！</div>
-          <div class="stop-links">
-            <a class="link-btn gold-btn" href="https://www.whalewatch.co.nz/" target="_blank">🐋 官網立即訂位</a>
-            <a class="link-btn" href="https://maps.google.com/?q=Whale+Watch+Kaikoura" target="_blank">📍 地圖</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">⏱ 約 2.5 小時</span>
-            <span class="stop-info-item">💰 NZD 175/人 · 約 TWD 3,360</span>
-            <span class="stop-info-item">⚠️ 海況不佳可能取消，退款保證</span>
-          </div>
-          <div class="note-box">⚠️ Whale Watch Kaikōura 極度熱門，常提前數週售完。請盡快預訂！</div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">13:00</div>
-          <div class="stop-name">🦞 凱庫拉午餐 · 新鮮龍蝦</div>
-          <div class="stop-desc">凱庫拉以新鮮龍蝦聞名，路邊攤販直接現煮，是紐西蘭最平價吃龍蝦的地方。推薦 Nin's Bin 或 Kaikoura Seafood BBQ，必試龍蝦＋小龍蝦組合。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Nin%27s+Bin+Kaikoura" target="_blank">📍 Nin's Bin</a>
-          </div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">💰 龍蝦約 NZD 30–60/隻</span>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">15:00</div>
-          <div class="stop-name">🚗 返回基督城</div>
-          <div class="stop-desc">沿原路返回基督城，約 1.5 小時。</div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">17:00（參考行程）</div>
-          <div class="stop-name">🚗 還車 · Snap Rentals <span class="badge" style="background:rgba(139,139,122,0.1);color:var(--stone);border:1px solid rgba(139,139,122,0.3);">參考行程</span></div>
-          <div class="stop-desc">可考慮今天傍晚歸還租車，避免明早 06:35 班機前的慌亂。確認車況、油箱加滿、清理垃圾。若明早再還亦可（需確認 Snap Rentals 早上 04:00 前是否有人員接車）。</div>
-          <div class="stop-info-row">
-            <span class="stop-info-item">📝 油箱加滿再還</span>
-            <span class="stop-info-item">📝 確認還車時間與方式</span>
-          </div>
-        </div>
-
+        <div class="stop"><div class="stop-time">早上（睡飽再出發）</div><div class="stop-name">🚗 Twizel 出發 → 基督城</div><div class="stop-desc">睡飽再出發，沿原路返回，走走停停拍照。路途中可考慮繞去 Castle Hill 巨石陣。</div><div class="stop-links"><a class="link-btn" href="https://www.google.com/maps/dir/Twizel/Christchurch" target="_blank">🚗 路線 · 約 3.5 小時</a></div></div>
+        <div class="stop"><div class="stop-time">途中（可選）</div><div class="stop-name">🪨 Castle Hill 巨石陣（可選）</div><div class="stop-desc">達賴喇嘛稱之為「宇宙的精神中心」，巨大石灰岩岩石如棋盤般散落山谷，秋光下極為壯觀。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Castle+Hill+Reserve+New+Zealand" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍽️ 晚餐：Jiggle Korean Cuisine and BBQ</div><div class="stop-desc">基督城韓式烤肉餐廳，旅程最後幾天來頓熱烘烘的韓式烤肉非常療癒。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Jiggle+Korean+BBQ+Christchurch" target="_blank">📍 地圖</a></div></div>
       </div>
-
-      <div class="accom-card">
-        <div class="accom-label">今晚住宿 · 已訂</div>
-        <h4>基督城住宿（靠近機場）</h4>
-        <div class="accom-meta">
-          <span>📍 基督城</span>
-          <span>✅ 已完成預訂</span>
-        </div>
-      </div>
-
-      <div class="checklist">
-        <div class="checklist-title">📋 返程清單</div>
-        <div class="checklist-items">
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 賞鯨已預訂</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 還車時間確認</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 行李整理/超重確認</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 剩餘紐幣換回</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> GST 退稅收據備妥</div>
-          <div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 鬧鐘設 03:45</div>
-        </div>
-      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂（連住 2 晚）</div><h4>2 on Whiteleigh Motel</h4><div class="accom-meta"><a href="https://maps.google.com/?q=2+on+Whiteleigh+Motel+Christchurch" target="_blank">📍 Google Maps</a></div></div>
     </div>
   </div>
 
@@ -1881,32 +1004,39 @@
     <div class="day-header" onclick="toggleDay(12)">
       <div class="day-num-block"><span class="day-n">12</span><span class="day-label">Day</span></div>
       <div class="day-info">
-        <h3>✈️ 返程 · 再見紐西蘭</h3>
-        <div class="day-meta">
-          <span>📅 4月27日（週日）</span>
-          <span>✈️ 06:35 CHC → 22:10 KHH</span>
-        </div>
+        <h3>基督城 → <span style="color:var(--teal)">凱庫拉</span> 賞鯨 🐋 → 基督城</h3>
+        <div class="day-meta"><span>📅 4月26日（週六）</span><span>🚗 來回約 3 小時</span></div>
       </div>
       <span class="day-toggle">▾</span>
     </div>
     <div class="day-body">
       <div class="stops-timeline">
+        <div class="stop"><div class="stop-time">07:30 前到達</div><div class="stop-name">🚗 出發前往凱庫拉</div><div class="stop-desc">早起出發，07:30 前須抵達凱庫拉賞鯨報到處。基督城出發約 1.5 小時。</div><div class="stop-links"><a class="link-btn" href="https://www.google.com/maps/dir/Christchurch/Kaikoura" target="_blank">🚗 路線 · 約 1.5 小時</a></div></div>
+        <div class="stop must"><div class="stop-time">10:30</div><div class="stop-name">🐋 Whale Watch Kaikōura 賞鯨 <span class="badge badge-must">✅ 已訂</span></div><div class="stop-desc">全球少數可全年看到抹香鯨的地方之一，常見海豚、信天翁同場加映。全程約 2.5 小時。</div><div class="stop-links"><a class="link-btn gold-btn" href="https://www.whalewatch.co.nz/" target="_blank">🐋 官網</a><a class="link-btn" href="https://maps.google.com/?q=Whale+Watch+Kaikoura" target="_blank">📍 地圖</a></div><div class="stop-info-row"><span class="stop-info-item">💰 TWD 3,215/人 ✅ 已訂</span><span class="stop-info-item">🕐 10:30 場次</span></div></div>
+        <div class="stop"><div class="stop-time">午餐</div><div class="stop-name">🦞 午餐：Nin's Bin</div><div class="stop-desc">凱庫拉路邊現煮新鮮龍蝦攤，紐西蘭最平價吃龍蝦的地方，必試！</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Nin%27s+Bin+Kaikoura" target="_blank">📍 地圖</a></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🏙️ 基督城 City Tour &amp; Shopping</div><div class="stop-desc">返回基督城後逛街購物採買紀念品，最後一次逛 Cashel Street 或 Riverside Market。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Cashel+Street+Christchurch" target="_blank">📍 Cashel Street</a></div></div>
+        <div class="stop"><div class="stop-time">下午</div><div class="stop-name">🚗 還車</div><div class="stop-desc">確認車況、油箱加滿、清理垃圾、歸還備用鑰匙。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Snap+Rentals+Christchurch" target="_blank">📍 Snap Rentals</a></div></div>
+        <div class="stop"><div class="stop-time">晚餐</div><div class="stop-name">🍳 晚餐：自煮 or 餐廳</div></div>
+      </div>
+      <div class="accom-card"><div class="accom-label">今晚住宿 · ✅ 已訂</div><h4>2 on Whiteleigh Motel（第 2 晚）</h4><div class="accom-meta"><a href="https://maps.google.com/?q=2+on+Whiteleigh+Motel+Christchurch" target="_blank">📍 Google Maps</a></div></div>
+      <div class="checklist"><div class="checklist-title">📋 返程清單</div><div class="checklist-items"><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 還車確認（油加滿）</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 行李整理/超重確認</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 剩餘紐幣換回</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> GST 退稅收據備妥</div><div class="checklist-item" onclick="toggleCheck(this)"><span class="check-icon">○</span> 鬧鐘設 03:45</div></div></div>
+    </div>
+  </div>
 
-        <div class="stop must">
-          <div class="stop-time">04:15</div>
-          <div class="stop-name">🚌 前往基督城機場</div>
-          <div class="stop-desc">06:35 班機建議 04:15–04:30 出發前往機場（若住機場附近約 10 分鐘），建議 04:30 前到達機場辦理劃位（兩小時前）。</div>
-          <div class="stop-links">
-            <a class="link-btn" href="https://maps.google.com/?q=Christchurch+International+Airport" target="_blank">📍 機場地圖</a>
-          </div>
-        </div>
-
-        <div class="stop">
-          <div class="stop-time">06:35</div>
-          <div class="stop-name">✈️ 起飛 · CHC → 高雄</div>
-          <div class="stop-desc">預計 22:10 抵達高雄，帶著滿滿的紐西蘭南島記憶與照片回家。</div>
-        </div>
-
+  <!-- ─── DAY 13 ─── -->
+  <div class="day-card visible" data-day="13" id="day13">
+    <div class="day-header" onclick="toggleDay(13)">
+      <div class="day-num-block"><span class="day-n">13</span><span class="day-label">Day</span></div>
+      <div class="day-info">
+        <h3>✈️ 返台 · 再見紐西蘭</h3>
+        <div class="day-meta"><span>📅 4月27日（週日）</span><span>✈️ 06:35 CHC → 22:10 KHH</span></div>
+      </div>
+      <span class="day-toggle">▾</span>
+    </div>
+    <div class="day-body">
+      <div class="stops-timeline">
+        <div class="stop"><div class="stop-time">04:15</div><div class="stop-name">🚖 前往基督城機場</div><div class="stop-desc">06:35 班機建議 04:15 出發，04:30 前到達機場辦理劃位（起飛前兩小時）。</div><div class="stop-links"><a class="link-btn" href="https://maps.google.com/?q=Christchurch+International+Airport" target="_blank">📍 機場</a></div></div>
+        <div class="stop"><div class="stop-time">06:35</div><div class="stop-name">✈️ 起飛 · CHC → 高雄</div><div class="stop-desc">預計 22:10 抵達高雄，帶著滿滿的紐西蘭南島記憶與照片回家。</div></div>
       </div>
     </div>
   </div>
